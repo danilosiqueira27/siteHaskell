@@ -1,0 +1,22 @@
+curl -X POST https://yesod0-romefeller.c9users.io/serie -d '{"titulo":"Friends","genero":"sitcom","ano":1994}' 
+
+curl https://yesod0-romefeller.c9users.io/series
+
+curl https://yesod0-romefeller.c9users.io/serie/1/desc
+
+curl -X DELETE https://yesod0-romefeller.c9users.io/serie/3/apagar
+
+curl -X PUT https://yesod0-romefeller.c9users.io/serie/4/alterar -d '{"titulo":"TMOC","genero":"comedio","ano":2008}' 
+
+curl -X PATCH https://yesod0-romefeller.c9users.io/serie/4/mudar/2009/ano
+
+curl https://yesod0-romefeller.c9users.io/serie/f/buscar
+
+==== JOIN ===
+curl -X POST https://yesod0-romefeller.c9users.io/venda/9/cliente/2
+
+curl https://yesod0-romefeller.c9users.io/venda/9/compradores
+
+curl https://yesod0-romefeller.c9users.io/venda/2/carrinho
+
+curl -X POST https://yesod0-romefeller.c9users.io/ator/2/atuaem/1 

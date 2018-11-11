@@ -1,0 +1,12 @@
+TUDO NA MESMA LINHA
+psql -h ec2-23-21-165-183.compute-1.amazonaws.com -U osypevxldtkvuc -d d1uc5bouiu8tr7
+
+
+psql -h ec2-23-21-165-183.compute-1.amazonaws.com
+     -U osypevxldtkvuc
+     -d d1uc5bouiu8tr7
+     
+AyGbk1uqTI2WR7BTYclNVfBU0U
+
+=== CASO DESEJE MUDAR O NOME DA APLICACAO
+MUDE AS LINHAS 1, 70 e 78 DO package.yaml!

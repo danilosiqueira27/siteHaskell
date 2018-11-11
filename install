@@ -1,0 +1,6 @@
+============= INSTALL YESOD =====
+1) curl -sSL https://get.haskellstack.org/ | sh
+2) git clone https://github.com/romefeller/yesodvazio.git
+2') renomear pasta 
+2'') cd nome_pasta
+3) stack install (UMA VEZ POR MAQUINA)
